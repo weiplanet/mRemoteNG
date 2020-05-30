@@ -150,9 +150,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
     <value>Toujours demander la sélection d'un panneau lors de l'ouverture d'une connexion</value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-    <value>Toujours afficher les onglets du panneau</value>
-  </data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>Toujours afficher l'icône dans la zone de notification</value>
   </data>

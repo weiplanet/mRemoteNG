@@ -153,9 +153,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
     <value>Always show panel selection dialog when opening connections</value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-    <value>Always show panel tabs</value>
-  </data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>Always show notification area icon</value>
   </data>
@@ -2735,9 +2732,6 @@ This page will walk you through the process of upgrading your connections file o
   </data>
   <data name="strTrackActiveConnectionInConnectionTree" xml:space="preserve">
     <value>Track active connection in the connection tree</value>
-  </data>
-  <data name="strAlwaysShowConnectionTabs" xml:space="preserve">
-    <value>Always show connection tabs</value>
   </data>
   <data name="strReleaseChannel" xml:space="preserve">
     <value>Release Channel</value>

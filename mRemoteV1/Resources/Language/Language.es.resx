@@ -150,9 +150,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
     <value>Mostrar siempre el diálogo de selección de panel cuando se abran conexiones</value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-    <value>Mostrar las pestañas del panel siempre</value>
-  </data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>Mostrar siempre el Icono de la Bandeja del Sistema</value>
   </data>

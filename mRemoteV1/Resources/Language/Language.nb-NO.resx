@@ -150,9 +150,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
     <value>Alltid vis panelvalgdialog når tilkoblinger åpnes</value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-    <value>Alltid vis panelfaner</value>
-  </data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>Alltid vis ikon i notisfeltet</value>
   </data>
@@ -2712,9 +2709,6 @@ Denne siden vil lede deg gjennom stegene for å oppgradere tilkoblingsfilen, ell
   </data>
   <data name="strTrackActiveConnectionInConnectionTree" xml:space="preserve">
     <value>Vis aktiv tilkobling i tilkoblingstreet</value>
-  </data>
-  <data name="strAlwaysShowConnectionTabs" xml:space="preserve">
-    <value>Vis alltid tilkoblingsfaner</value>
   </data>
   <data name="strReleaseChannel" xml:space="preserve">
     <value>Release-kanal</value>

@@ -153,9 +153,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
     <value>在打开连接时总是显示面板选择对话框</value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-    <value>始终显示标签面板</value>
-  </data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>始终显示通知区域图标</value>
   </data>
@@ -2737,9 +2734,6 @@ mRemoteNG 将退出并安装更新。</value>
   </data>
   <data name="strTrackActiveConnectionInConnectionTree" xml:space="preserve">
     <value>跟踪连接树中的活动连接</value>
-  </data>
-  <data name="strAlwaysShowConnectionTabs" xml:space="preserve">
-    <value>始终显示连接标签</value>
   </data>
   <data name="strReleaseChannel" xml:space="preserve">
     <value>发布通道</value>

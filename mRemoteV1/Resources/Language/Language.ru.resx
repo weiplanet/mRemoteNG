@@ -150,9 +150,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
     <value>Всегда показывать диалог выбора панели при открытии подключения</value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-    <value>Всегда показывать панель закладок</value>
-  </data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>Всегда показывать значок в системном трее</value>
   </data>
@@ -2738,9 +2735,6 @@ mRemoteNG сейчас прекратит работу и начнет проц�
   </data>
   <data name="strTrackActiveConnectionInConnectionTree" xml:space="preserve">
     <value>Отслеживать активное соединение в дереве соединений</value>
-  </data>
-  <data name="strAlwaysShowConnectionTabs" xml:space="preserve">
-    <value>Всегда показывать вкладки подключения</value>
   </data>
   <data name="strReleaseChannel" xml:space="preserve">
     <value>Канал выпуска</value>

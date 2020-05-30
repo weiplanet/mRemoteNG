@@ -502,29 +502,11 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Always show connection tabs.
-        /// </summary>
-        internal static string strAlwaysShowConnectionTabs {
-            get {
-                return ResourceManager.GetString("strAlwaysShowConnectionTabs", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Always show panel selection dialog when opening connections.
         /// </summary>
         internal static string strAlwaysShowPanelSelection {
             get {
                 return ResourceManager.GetString("strAlwaysShowPanelSelection", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Always show panel tabs.
-        /// </summary>
-        internal static string strAlwaysShowPanelTabs {
-            get {
-                return ResourceManager.GetString("strAlwaysShowPanelTabs", resourceCulture);
             }
         }
         

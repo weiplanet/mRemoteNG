@@ -150,9 +150,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
     <value>Panel Auswahldialog immer anzeigen</value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-    <value>Panel immer anzeigen</value>
-  </data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>Tray Icon immer anzeigen</value>
   </data>

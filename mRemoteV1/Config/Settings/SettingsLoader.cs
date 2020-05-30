@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
@@ -67,12 +67,10 @@ namespace mRemoteNG.Config.Settings
                 SetSupportedCulture();
                 SetApplicationWindowPositionAndSize();
                 SetKioskMode();
-
                 SetPuttyPath();
                 SetShowSystemTrayIcon();
                 SetAutoSave();
                 LoadExternalAppsFromXml();
-                SetAlwaysShowPanelTabs();
 
                 if (mRemoteNG.Settings.Default.ResetToolbars)
                     SetToolbarsDefault();
@@ -84,13 +82,6 @@ namespace mRemoteNG.Config.Settings
                 _messageCollector.AddExceptionMessage("Loading settings failed", ex);
             }
         }
-
-        private static void SetAlwaysShowPanelTabs()
-        {
-            if (mRemoteNG.Settings.Default.AlwaysShowPanelTabs)
-                FrmMain.Default.pnlDock.DocumentStyle = DocumentStyle.DockingWindow;
-        }
-
 
         private void SetSupportedCulture()
         {

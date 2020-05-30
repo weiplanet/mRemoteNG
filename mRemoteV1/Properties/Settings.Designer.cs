@@ -2091,19 +2091,6 @@ namespace mRemoteNG {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
         [global::System.Configuration.SettingsManageabilityAttribute(global::System.Configuration.SettingsManageability.Roaming)]
-        public bool AlwaysShowPanelTabs {
-            get {
-                return ((bool)(this["AlwaysShowPanelTabs"]));
-            }
-            set {
-                this["AlwaysShowPanelTabs"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        [global::System.Configuration.SettingsManageabilityAttribute(global::System.Configuration.SettingsManageability.Roaming)]
         public bool IdentifyQuickConnectTabs {
             get {
                 return ((bool)(this["IdentifyQuickConnectTabs"]));
@@ -2828,18 +2815,6 @@ namespace mRemoteNG {
             }
             set {
                 this["PlaceSearchBarAboveConnectionTree"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool AlwaysShowConnectionTabs {
-            get {
-                return ((bool)(this["AlwaysShowConnectionTabs"]));
-            }
-            set {
-                this["AlwaysShowConnectionTabs"] = value;
             }
         }
         

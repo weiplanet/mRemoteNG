@@ -150,9 +150,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
     <value>Pozwól wybrać panel przed każdym połączeniem</value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-    <value>Zawsze pokazuj zakładki paneli</value>
-  </data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>Zawsze pokazuj ikonę w obszarze powiadomień</value>
   </data>

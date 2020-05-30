@@ -154,9 +154,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
     <value>Always show panel selection dialog when opening connections</value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-    <value>常にパネルのタブを表示</value>
-  </data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>常に通知領域アイコンを表示</value>
   </data>

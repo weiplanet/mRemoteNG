@@ -153,9 +153,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
 		<value>연결시 패널 선택 대화상자 항상 표시</value>
 	</data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-		<value>패널 탭 항상 표시</value>
-	</data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
 		<value>알림 영역 아이콘 항상 표시</value>
 	</data>

@@ -188,6 +188,7 @@ namespace mRemoteNG.UI.Forms
             //Fix MagicRemove , revision on panel strategy for mdi
 
             pnlDock.ShowDocumentIcon = true;
+            pnlDock.DocumentStyle = DocumentStyle.DockingWindow;
 
             FrmSplashScreen.getInstance().Close();
 
@@ -642,56 +643,6 @@ namespace mRemoteNG.UI.Forms
             }
 
             Text = titleBuilder.ToString();
-        }
-
-        public void ShowHidePanelTabs(DockContent closingDocument = null)
-        {
-            DocumentStyle newDocumentStyle;
-
-            if (Settings.Default.AlwaysShowPanelTabs)
-            {
-                newDocumentStyle = DocumentStyle.DockingWindow; // Show the panel tabs
-            }
-            else
-            {
-                var nonConnectionPanelCount = 0;
-                foreach (var dockContent in pnlDock.Documents)
-                {
-                    var document = (DockContent)dockContent;
-                    if ((closingDocument == null || document != closingDocument) && !(document is ConnectionWindow))
-                    {
-                        nonConnectionPanelCount++;
-                    }
-                }
-
-                newDocumentStyle = nonConnectionPanelCount == 0
-                    ? DocumentStyle.DockingSdi
-                    : DocumentStyle.DockingWindow;
-            }
-
-            // TODO: See if we can get this to work with DPS
-#if false
-            foreach (var dockContent in pnlDock.Documents)
-			{
-				var document = (DockContent)dockContent;
-				if (document is ConnectionWindow)
-				{
-					var connectionWindow = (ConnectionWindow)document;
-					if (Settings.Default.AlwaysShowConnectionTabs == false)
-					{
-						connectionWindow.TabController.HideTabsMode = TabControl.HideTabsModes.HideAlways;
-					}
-					else
-					{
-						connectionWindow.TabController.HideTabsMode = TabControl.HideTabsModes.ShowAlways;
-					}
-				}
-			}
-#endif
-
-            if (pnlDock.DocumentStyle == newDocumentStyle) return;
-            pnlDock.DocumentStyle = newDocumentStyle;
-            pnlDock.Size = new Size(1, 1);
         }
 
         #endregion

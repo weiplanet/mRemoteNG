@@ -518,9 +518,6 @@
     <Setting Name="ConDefaultUseVmId" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="AlwaysShowPanelTabs" Roaming="true" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
-    </Setting>
     <Setting Name="IdentifyQuickConnectTabs" Roaming="true" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
@@ -703,9 +700,6 @@
     </Setting>
     <Setting Name="PlaceSearchBarAboveConnectionTree" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
-    </Setting>
-    <Setting Name="AlwaysShowConnectionTabs" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="OverrideFIPSCheck" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>

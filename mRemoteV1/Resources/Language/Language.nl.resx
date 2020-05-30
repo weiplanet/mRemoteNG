@@ -150,9 +150,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
     <value>Altijd Paneel dialoogvenster tonen bij het openen van verbindingen</value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-    <value>Altijd tabbladen tonen</value>
-  </data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>Altijd het icoon in het systeemvak tonen</value>
   </data>

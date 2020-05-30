@@ -1,4 +1,4 @@
-namespace mRemoteNG.UI.Forms.OptionsPages
+﻿namespace mRemoteNG.UI.Forms.OptionsPages
 {
     public sealed partial class TabsPanelsPage
     {
@@ -19,8 +19,6 @@ namespace mRemoteNG.UI.Forms.OptionsPages
         {
             base.ApplyLanguage();
 
-            chkAlwaysShowPanelTabs.Text = Language.strAlwaysShowPanelTabs;
-            chkAlwaysShowConnectionTabs.Text = Language.strAlwaysShowConnectionTabs;
             chkOpenNewTabRightOfSelected.Text = Language.strOpenNewTabRight;
             chkShowLogonInfoOnTabs.Text = Language.strShowLogonInfoOnTabs;
             chkShowProtocolOnTabs.Text = Language.strShowProtocolOnTabs;
@@ -33,8 +31,6 @@ namespace mRemoteNG.UI.Forms.OptionsPages
 
         public override void LoadSettings()
         {
-            chkAlwaysShowPanelTabs.Checked = Settings.Default.AlwaysShowPanelTabs;
-            chkAlwaysShowConnectionTabs.Checked = Settings.Default.AlwaysShowConnectionTabs;
             chkOpenNewTabRightOfSelected.Checked = Settings.Default.OpenTabsRightOfSelected;
             chkShowLogonInfoOnTabs.Checked = Settings.Default.ShowLogonInfoOnTabs;
             chkShowProtocolOnTabs.Checked = Settings.Default.ShowProtocolOnTabs;
@@ -49,10 +45,6 @@ namespace mRemoteNG.UI.Forms.OptionsPages
         public override void SaveSettings()
         {
             base.SaveSettings();
-
-            Settings.Default.AlwaysShowPanelTabs = chkAlwaysShowPanelTabs.Checked;
-            Settings.Default.AlwaysShowConnectionTabs = chkAlwaysShowConnectionTabs.Checked;
-            FrmMain.Default.ShowHidePanelTabs();
 
             Settings.Default.OpenTabsRightOfSelected = chkOpenNewTabRightOfSelected.Checked;
             Settings.Default.ShowLogonInfoOnTabs = chkShowLogonInfoOnTabs.Checked;

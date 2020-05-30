@@ -1914,9 +1914,6 @@ mRemoteNG зараз припинить роботу і почне процес 
   <data name="strYes" xml:space="preserve">
     <value>Так</value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-		<value>Завжди показувати панель вкладок</value>
-	</data>
   <data name="strButtonLaunch" xml:space="preserve">
 		<value>&amp;Запустити</value>
 	</data>
@@ -2645,9 +2642,6 @@ mRemoteNG зараз припинить роботу і почне процес 
 	</data>
   <data name="strTrackActiveConnectionInConnectionTree" xml:space="preserve">
 		<value>Відстежувати активне з'єднання у дереві з'єднань</value>
-	</data>
-  <data name="strAlwaysShowConnectionTabs" xml:space="preserve">
-		<value>Завжди показувати вкладки підключення</value>
 	</data>
   <data name="strReleaseChannel" xml:space="preserve">
 		<value>Канал оновлень</value>

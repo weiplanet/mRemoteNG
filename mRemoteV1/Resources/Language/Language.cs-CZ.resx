@@ -153,9 +153,6 @@
   <data name="strAlwaysShowPanelSelection" xml:space="preserve">
     <value>Při navázání spojení vždy nabídnout výběr panelu </value>
   </data>
-  <data name="strAlwaysShowPanelTabs" xml:space="preserve">
-    <value>Vždy zobrazovat záložky (taby) panelů</value>
-  </data>
   <data name="strAlwaysShowSysTrayIcon" xml:space="preserve">
     <value>Vždy zobrazit notifikační ikonu</value>
   </data>
