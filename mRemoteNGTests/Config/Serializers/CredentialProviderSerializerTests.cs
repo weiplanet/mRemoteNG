@@ -1,7 +1,6 @@
 ﻿using System;
 using mRemoteNG.Config.Serializers.CredentialProviderSerializer;
 using mRemoteNG.Credential;
-using NSubstitute;
 using NUnit.Framework;
 
 

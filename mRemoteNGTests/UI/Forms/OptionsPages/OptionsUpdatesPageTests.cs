@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using NUnit.Extensions.Forms;
 
 namespace mRemoteNGTests.UI.Forms.OptionsPages
 {

@@ -1,10 +1,9 @@
 ﻿using mRemoteNG.UI.Forms;
-using NUnit.Extensions.Forms;
 using NUnit.Framework;
 
 namespace mRemoteNGTests.UI.Forms
 {
-	[TestFixture]
+    [TestFixture]
     public class PasswordFormTests
     {
         PasswordForm _passwordForm;

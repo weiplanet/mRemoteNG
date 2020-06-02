@@ -34,7 +34,6 @@
 
 using System.Collections;
 using System.Windows.Forms;
-using NUnit.Extensions.Forms;
 
 namespace mRemoteNGTests
 {

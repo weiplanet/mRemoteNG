@@ -8,7 +8,6 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using mRemoteNG.Tree.Root;
-using System.Web;
 using System.Net;
 
 namespace mRemoteNG.Config.Putty

@@ -4,7 +4,6 @@ using mRemoteNG.Config;
 using mRemoteNG.Config.DataProviders;
 using mRemoteNG.Config.Serializers;
 using mRemoteNG.Credential;
-using NSubstitute;
 using NUnit.Framework;
 
 namespace mRemoteNGTests.Config

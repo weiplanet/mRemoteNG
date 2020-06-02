@@ -11,7 +11,6 @@ using mRemoteNG.Connection.Protocol.VNC;
 using mRemoteNG.Credential;
 using mRemoteNG.Security;
 using mRemoteNGTests.TestHelpers;
-using NSubstitute;
 using NUnit.Framework;
 
 namespace mRemoteNGTests.Config.Serializers.ConnectionSerializers.Csv

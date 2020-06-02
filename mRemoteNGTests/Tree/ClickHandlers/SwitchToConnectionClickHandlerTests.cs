@@ -2,7 +2,6 @@
 using mRemoteNG.Connection;
 using mRemoteNG.Container;
 using mRemoteNG.Tree;
-using NSubstitute;
 using NUnit.Framework;
 
 

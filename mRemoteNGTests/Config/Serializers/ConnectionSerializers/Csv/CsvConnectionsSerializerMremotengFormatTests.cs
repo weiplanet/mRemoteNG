@@ -7,12 +7,11 @@ using mRemoteNG.Credential;
 using mRemoteNG.Security;
 using mRemoteNG.Tree;
 using mRemoteNGTests.TestHelpers;
-using NSubstitute;
 using NUnit.Framework;
 
 namespace mRemoteNGTests.Config.Serializers.ConnectionSerializers.Csv
 {
-	public class CsvConnectionsSerializerMremotengFormatTests
+    public class CsvConnectionsSerializerMremotengFormatTests
     {
         private ICredentialRepositoryList _credentialRepositoryList;
         private const string ConnectionName = "myconnection";

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
 using mRemoteNG.Tools.CustomCollections;
-using NSubstitute;
 using NUnit.Framework;
 
 namespace mRemoteNGTests.Tools

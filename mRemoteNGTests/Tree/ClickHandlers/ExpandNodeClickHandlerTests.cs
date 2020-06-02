@@ -3,7 +3,6 @@ using mRemoteNG.Connection;
 using mRemoteNG.Container;
 using mRemoteNG.Tree;
 using mRemoteNG.UI.Controls;
-using NSubstitute;
 using NUnit.Framework;
 
 

@@ -7,7 +7,6 @@ using mRemoteNG.Config.Serializers;
 using mRemoteNG.Config.Serializers.CredentialSerializer;
 using mRemoteNG.Credential;
 using mRemoteNG.Security;
-using NSubstitute;
 using NUnit.Framework;
 
 namespace mRemoteNGTests.Config.Serializers.CredentialSerializers

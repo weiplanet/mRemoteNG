@@ -4,7 +4,6 @@ using mRemoteNG.Container;
 using mRemoteNG.Tree;
 using mRemoteNG.Tree.Root;
 using mRemoteNG.UI.Controls;
-using NSubstitute;
 using NUnit.Framework;
 
 

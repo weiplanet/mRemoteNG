@@ -1,6 +1,5 @@
 ﻿using System.Windows.Forms;
 using mRemoteNG.UI.Controls;
-using NUnit.Extensions.Forms;
 
 
 namespace mRemoteNGTests.NUnitExtensions

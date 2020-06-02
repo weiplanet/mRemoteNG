@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using mRemoteNG.Config;
 using mRemoteNG.Credential;
-using NSubstitute;
 using NUnit.Framework;
 // ReSharper disable ObjectCreationAsStatement
 

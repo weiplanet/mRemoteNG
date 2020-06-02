@@ -2,7 +2,6 @@
 using mRemoteNG.Themes;
 using System.Windows.Forms;
 using System.Diagnostics;
-using mRemoteNG.UI.Forms;
 
 namespace mRemoteNG.UI.Window
 {

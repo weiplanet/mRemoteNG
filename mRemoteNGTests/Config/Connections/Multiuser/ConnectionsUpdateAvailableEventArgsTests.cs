@@ -1,7 +1,6 @@
 ﻿using System;
 using mRemoteNG.Config.Connections.Multiuser;
 using mRemoteNG.Config.DatabaseConnectors;
-using NSubstitute;
 using NUnit.Framework;
 // ReSharper disable ObjectCreationAsStatement
 

@@ -3,7 +3,6 @@ using System.Drawing;
 using mRemoteNG.UI;
 using mRemoteNG.UI.GraphicsUtilities;
 using mRemoteNGTests.Properties;
-using NSubstitute;
 using NUnit.Framework;
 
 namespace mRemoteNGTests.UI

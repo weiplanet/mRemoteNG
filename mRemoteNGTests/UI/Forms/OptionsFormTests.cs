@@ -1,13 +1,4 @@
-﻿using mRemoteNG.App;
-using mRemoteNG.Controls;
-using mRemoteNG.Forms;
-using mRemoteNG.Messages;
-using mRemoteNG.UI.Window;
-using NUnit.Extensions.Forms;
-using NUnit.Framework;
-using System;
-using System.Threading;
-using WeifenLuo.WinFormsUI.Docking;
+﻿using NUnit.Framework;
 
 namespace mRemoteNGTests.UI.Forms
 {

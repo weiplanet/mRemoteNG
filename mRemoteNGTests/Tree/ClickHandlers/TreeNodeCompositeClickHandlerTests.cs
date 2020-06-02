@@ -1,7 +1,6 @@
 ﻿using System;
 using mRemoteNG.Connection;
 using mRemoteNG.Tree;
-using NSubstitute;
 using NUnit.Framework;
 
 

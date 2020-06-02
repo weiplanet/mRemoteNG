@@ -6,12 +6,11 @@ using mRemoteNG.Tools.Clipboard;
 using mRemoteNG.Tree;
 using mRemoteNG.Tree.Root;
 using mRemoteNG.UI.Controls;
-using NSubstitute;
 using NUnit.Framework;
 
 namespace mRemoteNGTests.UI.Controls
 {
-	public class ConnectionTreeTests
+    public class ConnectionTreeTests
 	{
 		private ConnectionTreeSearchTextFilter _filter;
 		private ConnectionTree _connectionTree;

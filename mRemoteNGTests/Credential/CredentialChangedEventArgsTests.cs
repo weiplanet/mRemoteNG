@@ -1,6 +1,5 @@
 ﻿using System;
 using mRemoteNG.Credential;
-using NSubstitute;
 using NUnit.Framework;
 
 namespace mRemoteNGTests.Credential

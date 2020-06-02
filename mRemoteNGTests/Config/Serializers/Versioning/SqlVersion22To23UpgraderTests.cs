@@ -1,7 +1,6 @@
 ﻿using System;
 using mRemoteNG.Config.DatabaseConnectors;
 using mRemoteNG.Config.Serializers.Versioning;
-using NSubstitute;
 using NUnit.Framework;
 
 namespace mRemoteNGTests.Config.Serializers.Versioning
