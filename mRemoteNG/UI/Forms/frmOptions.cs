@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Windows.Forms;
 using mRemoteNG.Themes;
+using System.Configuration;
 
 namespace mRemoteNG.UI.Forms
 {
@@ -119,7 +120,7 @@ namespace mRemoteNG.UI.Forms
         /*
          * This gets called by both OK and Apply buttons.
          * OK sets DialogResult = OK, Apply does not (None).
-         * Apply will no close the dialog.
+         * Apply will not close the dialog.
          */
         private void BtnOK_Click(object sender, EventArgs e)
         {
@@ -129,7 +130,7 @@ namespace mRemoteNG.UI.Forms
                 page.SaveSettings();
             }
 
-            Debug.WriteLine(AppDomain.CurrentDomain.SetupInformation.ConfigurationFile);
+            Debug.WriteLine((ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None)).FilePath);
             Settings.Default.Save();
         }
 
