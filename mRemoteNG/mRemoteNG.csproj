@@ -55,252 +55,148 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ColorMapTheme.resx</DependentUpon>
     </Compile>
-    <Compile Update="Themes\MremoteNGThemeBase.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\AdTree.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="Themes\MremoteNGThemeBase.cs" />
+    <Compile Update="UI\Controls\AdTree.cs" />
     <Compile Update="UI\Controls\AdTree.Designer.cs">
       <DependentUpon>AdTree.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Controls\Base\NGButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\Base\NGCheckBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\Base\NGComboBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\Base\NGGroupBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\Base\NGLabel.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\Base\NGListView.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\Base\NGNumericUpDown.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\Base\NGPictureBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Update="UI\Controls\Base\NGButton.cs" />
+    <Compile Update="UI\Controls\Base\NGCheckBox.cs" />
+    <Compile Update="UI\Controls\Base\NGComboBox.cs" />
+    <Compile Update="UI\Controls\Base\NGGroupBox.cs" />
+    <Compile Update="UI\Controls\Base\NGLabel.cs" />
+    <Compile Update="UI\Controls\Base\NGListView.cs" />
+    <Compile Update="UI\Controls\Base\NGNumericUpDown.cs" />
+    <Compile Update="UI\Controls\Base\NGPictureBox.cs" />
     <Compile Update="UI\Controls\Base\NGPictureBox.Designer.cs">
       <DependentUpon>NGPictureBox.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Controls\Base\NGProgressBar.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\Base\NGRadioButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\Base\NGSearchBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\Base\NGTextBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\ConnectionContextMenu.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\ConnectionInfoPropertyGrid\ConnectionInfoPropertyGrid.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Update="UI\Controls\Base\NGProgressBar.cs" />
+    <Compile Update="UI\Controls\Base\NGRadioButton.cs" />
+    <Compile Update="UI\Controls\Base\NGSearchBox.cs" />
+    <Compile Update="UI\Controls\Base\NGTextBox.cs" />
+    <Compile Update="UI\Controls\ConnectionContextMenu.cs" />
+    <Compile Update="UI\Controls\ConnectionInfoPropertyGrid\ConnectionInfoPropertyGrid.cs" />
     <Compile Update="UI\Controls\ConnectionInfoPropertyGrid\ConnectionInfoPropertyGrid.Designer.cs">
       <DependentUpon>ConnectionInfoPropertyGrid.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Controls\ConnectionTree\ConnectionTree.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Update="UI\Controls\ConnectionTree\ConnectionTree.cs" />
     <Compile Update="UI\Controls\ConnectionTree\ConnectionTree.Designer.cs">
       <DependentUpon>ConnectionTree.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Controls\CredentialRecordComboBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Update="UI\Controls\CredentialRecordComboBox.cs" />
     <Compile Update="UI\Controls\CredentialRecordComboBox.Designer.cs">
       <DependentUpon>CredentialRecordComboBox.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Controls\CredentialRecordListBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Update="UI\Controls\CredentialRecordListBox.cs" />
     <Compile Update="UI\Controls\CredentialRecordListBox.Designer.cs">
       <DependentUpon>CredentialRecordListBox.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Controls\CredentialRecordListView.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Controls\CredentialRecordListView.cs" />
     <Compile Update="UI\Controls\CredentialRecordListView.Designer.cs">
       <DependentUpon>CredentialRecordListView.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Controls\CredentialRepositoryListView.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Controls\CredentialRepositoryListView.cs" />
     <Compile Update="UI\Controls\CredentialRepositoryListView.Designer.cs">
       <DependentUpon>CredentialRepositoryListView.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Controls\ExternalToolsToolStrip.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\FilteredPropertyGrid\FilteredPropertyGrid.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Update="UI\Controls\ExternalToolsToolStrip.cs" />
+    <Compile Update="UI\Controls\FilteredPropertyGrid\FilteredPropertyGrid.cs" />
     <Compile Update="UI\Controls\FilteredPropertyGrid\FilteredPropertyGrid.designer.cs">
       <DependentUpon>FilteredPropertyGrid.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Controls\HeadlessTabControl.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\IPTextBox.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\ConnectionTree\NameColumn.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\MultiSshToolStrip.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\NewPasswordWithVerification.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Controls\HeadlessTabControl.cs" />
+    <Compile Update="UI\Controls\IPTextBox.cs" />
+    <Compile Update="UI\Controls\ConnectionTree\NameColumn.cs" />
+    <Compile Update="UI\Controls\MultiSshToolStrip.cs" />
+    <Compile Update="UI\Controls\NewPasswordWithVerification.cs" />
     <Compile Update="UI\Controls\NewPasswordWithVerification.Designer.cs">
       <DependentUpon>NewPasswordWithVerification.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Controls\PageSequence\SequencedControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\QuickConnectComboBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\QuickConnectToolStrip.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Controls\SecureTextBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Update="UI\Controls\PageSequence\SequencedControl.cs" />
+    <Compile Update="UI\Controls\QuickConnectComboBox.cs" />
+    <Compile Update="UI\Controls\QuickConnectToolStrip.cs" />
+    <Compile Update="UI\Controls\SecureTextBox.cs" />
     <Compile Update="UI\Controls\SecureTextBox.Designer.cs">
       <DependentUpon>SecureTextBox.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Controls\ToolStripSplitButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Forms\FrmOptions.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Controls\ToolStripSplitButton.cs" />
+    <Compile Update="UI\Forms\FrmOptions.cs" />
     <Compile Update="UI\Forms\FrmOptions.Designer.cs">
       <DependentUpon>FrmOptions.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\FrmSplashScreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\FrmSplashScreen.cs" />
     <Compile Update="UI\Forms\FrmSplashScreen.Designer.cs">
       <DependentUpon>FrmSplashScreen.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\Input\FrmInputBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\Input\FrmInputBox.cs" />
     <Compile Update="UI\Forms\Input\FrmInputBox.Designer.cs">
       <DependentUpon>FrmInputBox.cs</DependentUpon>
     </Compile>
     <Compile Update="UI\Forms\OptionsPages\AdvancedPage.Designer.cs">
       <DependentUpon>AdvancedPage.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\OptionsPages\AdvancedPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\OptionsPages\AdvancedPage.cs" />
     <Compile Update="UI\Forms\OptionsPages\AppearancePage.Designer.cs">
       <DependentUpon>AppearancePage.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\OptionsPages\AppearancePage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\OptionsPages\AppearancePage.cs" />
     <Compile Update="UI\Forms\OptionsPages\ComponentsPage.Designer.cs">
       <DependentUpon>ComponentsPage.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\OptionsPages\CredentialsPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\OptionsPages\CredentialsPage.cs" />
     <Compile Update="UI\Forms\OptionsPages\CredentialsPage.Designer.cs">
       <DependentUpon>CredentialsPage.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\OptionsPages\NotificationsPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\OptionsPages\NotificationsPage.cs" />
     <Compile Update="UI\Forms\OptionsPages\NotificationsPage.Designer.cs">
       <DependentUpon>NotificationsPage.cs</DependentUpon>
     </Compile>
     <Compile Update="UI\Forms\OptionsPages\ConnectionsPage.Designer.cs">
       <DependentUpon>ConnectionsPage.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\OptionsPages\ConnectionsPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UI\Forms\OptionsPages\OptionsPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UI\Forms\OptionsPages\SecurityPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\OptionsPages\ConnectionsPage.cs" />
+    <Compile Update="UI\Forms\OptionsPages\OptionsPage.cs" />
+    <Compile Update="UI\Forms\OptionsPages\SecurityPage.cs" />
     <Compile Update="UI\Forms\OptionsPages\SecurityPage.Designer.cs">
       <DependentUpon>SecurityPage.cs</DependentUpon>
     </Compile>
     <Compile Update="UI\Forms\OptionsPages\SqlServerPage.Designer.cs">
       <DependentUpon>SqlServerPage.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\OptionsPages\SqlServerPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\OptionsPages\SqlServerPage.cs" />
     <Compile Update="UI\Forms\OptionsPages\StartupExitPage.Designer.cs">
       <DependentUpon>StartupExitPage.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\OptionsPages\StartupExitPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\OptionsPages\StartupExitPage.cs" />
     <Compile Update="UI\Forms\OptionsPages\TabsPanelsPage.Designer.cs">
       <DependentUpon>TabsPanelsPage.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\OptionsPages\TabsPanelsPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\OptionsPages\TabsPanelsPage.cs" />
     <Compile Update="UI\Forms\OptionsPages\ThemePage.Designer.cs">
       <DependentUpon>ThemePage.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\OptionsPages\ThemePage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\OptionsPages\ThemePage.cs" />
     <Compile Update="UI\Forms\OptionsPages\UpdatesPage.Designer.cs">
       <DependentUpon>UpdatesPage.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\OptionsPages\UpdatesPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\OptionsPages\UpdatesPage.cs" />
     <Compile Update="Connection\InterfaceControl.Designer.cs">
       <DependentUpon>InterfaceControl.cs</DependentUpon>
     </Compile>
-    <Compile Update="Connection\InterfaceControl.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Update="Connection\InterfaceControl.cs" />
     <Compile Update="UI\Forms\FrmChoosePanel.Designer.cs">
       <DependentUpon>FrmChoosePanel.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\FrmChoosePanel.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\FrmChoosePanel.cs" />
     <Compile Update="UI\Forms\FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\FrmMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\FrmMain.cs" />
     <Compile Update="UI\Forms\PasswordForm.Designer.cs">
       <DependentUpon>PasswordForm.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\PasswordForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\PasswordForm.cs" />
     <Compile Update="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -309,87 +205,47 @@
     <Compile Update="Tools\ReconnectGroup.Designer.cs">
       <DependentUpon>ReconnectGroup.cs</DependentUpon>
     </Compile>
-    <Compile Update="Tools\ReconnectGroup.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UI\Forms\TextBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Forms\UnhandledExceptionWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="Tools\ReconnectGroup.cs" />
+    <Compile Update="UI\Forms\TextBox.cs" />
+    <Compile Update="UI\Forms\UnhandledExceptionWindow.cs" />
     <Compile Update="UI\Forms\UnhandledExceptionWindow.Designer.cs">
       <DependentUpon>UnhandledExceptionWindow.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Menu\HelpMenu.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Menu\MainFileMenu.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Menu\ToolsMenu.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Menu\ViewMenu.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Tabs\ConnectionTab.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Menu\HelpMenu.cs" />
+    <Compile Update="UI\Menu\MainFileMenu.cs" />
+    <Compile Update="UI\Menu\ToolsMenu.cs" />
+    <Compile Update="UI\Menu\ViewMenu.cs" />
+    <Compile Update="UI\Tabs\ConnectionTab.cs" />
     <Compile Update="UI\Tabs\ConnectionTab.Designer.cs">
       <DependentUpon>ConnectionTab.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Tabs\DockPaneStripNG.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\Tabs\FloatWindowNG.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="UI\Tabs\MremoteNGAutoHideStrip.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="UI\TaskDialog\CommandButton.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Update="UI\Tabs\DockPaneStripNG.cs" />
+    <Compile Update="UI\Tabs\FloatWindowNG.cs" />
+    <Compile Update="UI\Tabs\MremoteNGAutoHideStrip.cs" />
+    <Compile Update="UI\TaskDialog\CommandButton.cs" />
     <Compile Update="UI\TaskDialog\CommandButton.designer.cs">
       <DependentUpon>CommandButton.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\TaskDialog\frmTaskDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\TaskDialog\frmTaskDialog.cs" />
     <Compile Update="UI\TaskDialog\frmTaskDialog.designer.cs">
       <DependentUpon>frmTaskDialog.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Forms\FrmAbout.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Forms\FrmAbout.cs" />
     <Compile Update="UI\Forms\FrmAbout.Designer.cs">
       <DependentUpon>FrmAbout.cs</DependentUpon>
     </Compile>
     <Compile Update="UI\Window\ActiveDirectoryImportWindow.Designer.cs">
       <DependentUpon>ActiveDirectoryImportWindow.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Window\ActiveDirectoryImportWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="UI\Window\BaseWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="UI\Forms\OptionsPages\ComponentsPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UI\Window\ConfigWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="UI\Window\ConnectionWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Window\ActiveDirectoryImportWindow.cs" />
+    <Compile Update="UI\Window\BaseWindow.cs" />
+    <Compile Update="UI\Forms\OptionsPages\ComponentsPage.cs" />
+    <Compile Update="UI\Window\ConfigWindow.cs" />
+    <Compile Update="UI\Window\ConnectionWindow.cs" />
     <Compile Update="UI\Window\ConnectionWindow.Designer.cs">
       <DependentUpon>ConnectionWindow.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Window\ErrorAndInfoWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Window\ErrorAndInfoWindow.cs" />
     <Compile Update="UI\Forms\ExportForm.Designer.cs">
       <DependentUpon>ExportForm.cs</DependentUpon>
     </Compile>
@@ -399,45 +255,27 @@
     <Compile Update="UI\Window\ExternalToolsWindow.Designer.cs">
       <DependentUpon>ExternalToolsWindow.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Window\ExternalToolsWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="UI\Window\HelpWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Window\ExternalToolsWindow.cs" />
+    <Compile Update="UI\Window\HelpWindow.cs" />
     <Compile Update="UI\Window\HelpWindow.Designer.cs">
       <DependentUpon>HelpWindow.cs</DependentUpon>
     </Compile>
     <Compile Update="UI\Window\PortScanWindow.Designer.cs">
       <DependentUpon>PortScanWindow.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Window\PortScanWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="UI\Forms\ExportForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="UI\Window\ScreenshotManagerWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="UI\Window\SSHTransferWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Window\PortScanWindow.cs" />
+    <Compile Update="UI\Forms\ExportForm.cs" />
+    <Compile Update="UI\Window\ScreenshotManagerWindow.cs" />
+    <Compile Update="UI\Window\SSHTransferWindow.cs" />
     <Compile Update="UI\Window\ConnectionTreeWindow.Designer.cs">
       <DependentUpon>ConnectionTreeWindow.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Window\ConnectionTreeWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="UI\Window\UltraVNCWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Window\ConnectionTreeWindow.cs" />
+    <Compile Update="UI\Window\UltraVNCWindow.cs" />
     <Compile Update="UI\Window\UpdateWindow.Designer.cs">
       <DependentUpon>UpdateWindow.cs</DependentUpon>
     </Compile>
-    <Compile Update="UI\Window\UpdateWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="UI\Window\UpdateWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Resources\Language\Language.cs-CZ.resx">
@@ -731,6 +569,10 @@
     <None Include="..\CHANGELOG.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="..\COPYING.TXT">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="..\CREDITS.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -794,6 +636,10 @@
     <None Update="Schemas\mremoteng_creds_v1_0.xsd">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Images\mRemoteNG.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -1110,6 +956,9 @@ powershell.exe -ExecutionPolicy Bypass -File "$(SolutionDir)Tools\postbuild_mrem
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>echo $(ConfigurationName) &gt; buildenv.tmp</PreBuildEvent>
+    <PackageLicenseFile>COPYING.TXT</PackageLicenseFile>
+    <PackageIcon>mRemoteNG.png</PackageIcon>
+    <PackageProjectUrl>https://www.mremoteng.org</PackageProjectUrl>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
