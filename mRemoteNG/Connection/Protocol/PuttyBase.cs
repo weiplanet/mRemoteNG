@@ -9,6 +9,8 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
+using mRemoteNG.Properties;
+using mRemoteNG.Resources.Language;
 
 // ReSharper disable ArrangeAccessorOwnerBody
 
@@ -32,10 +34,7 @@ namespace mRemoteNG.Connection.Protocol
 
         public static string PuttyPath { get; set; }
 
-        public bool Focused
-        {
-            get { return NativeMethods.GetForegroundWindow() == PuttyHandle; }
-        }
+        public bool Focused => NativeMethods.GetForegroundWindow() == PuttyHandle;
 
         #endregion
 

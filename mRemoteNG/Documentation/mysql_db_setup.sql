@@ -64,7 +64,6 @@ CREATE TABLE `tblCons` (
 	`RdpVersion` varchar(10) DEFAULT NULL,
 	`RedirectAudioCapture` tinyint(1) NOT NULL,
 	`RedirectClipboard` tinyint(1) NOT NULL DEFAULT 0,
-	`RedirectClipboard` tinyint(1) NOT NULL,
 	`RedirectDiskDrives` tinyint(1) NOT NULL,
 	`RedirectKeys` tinyint(1) NOT NULL,
 	`RedirectPorts` tinyint(1) NOT NULL,
@@ -161,7 +160,7 @@ CREATE TABLE `tblCons` (
 	`InheritVNCProxyUsername` tinyint(1) NOT NULL,
 	`InheritVNCSmartSizeMode` tinyint(1) NOT NULL,
 	`InheritVNCViewOnly` tinyint(1) NOT NULL,
-	`InheritVmId` tinyint(1) DEFAULT NULL
+	`InheritVmId` tinyint(1) DEFAULT NULL,
     PRIMARY KEY (`ConstantID`),
     UNIQUE (`ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3324 DEFAULT CHARSET=latin1;

@@ -1,7 +1,7 @@
-using System;
+﻿using System;
 using System.Linq;
 using mRemoteNG.App;
-using mRemoteNG.Config.Serializers;
+using mRemoteNG.Config.Serializers.MiscSerializers;
 using mRemoteNG.Container;
 using mRemoteNG.Tools;
 

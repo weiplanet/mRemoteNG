@@ -3,6 +3,7 @@ using System.Threading;
 using System.ComponentModel;
 using System.Net.Sockets;
 using mRemoteNG.App;
+using mRemoteNG.Resources.Language;
 using mRemoteNG.Tools;
 using mRemoteNG.UI.Forms;
 
@@ -17,13 +18,13 @@ namespace mRemoteNG.Connection.Protocol.VNC
 
         public bool SmartSize
         {
-            get { return _vnc.Scaled; }
-            set { _vnc.Scaled = value; }
+            get => _vnc.Scaled;
+            set => _vnc.Scaled = value;
         }
 
         public bool ViewOnly
         {
-            get { return _vnc.ViewOnly; }
+            get => _vnc.ViewOnly;
             set => _vnc.ViewOnly = value;
         }
 

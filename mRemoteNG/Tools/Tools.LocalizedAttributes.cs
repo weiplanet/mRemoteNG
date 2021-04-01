@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel;
+using mRemoteNG.Resources.Language;
 
 // ReSharper disable ArrangeAccessorOwnerBody
 
@@ -89,10 +90,7 @@ namespace mRemoteNG.Tools
 
             // This allows localized attributes in a derived class to override a matching
             // non-localized attribute inherited from its base class
-            public override object TypeId
-            {
-                get { return typeof(DefaultValueAttribute); }
-            }
+            public override object TypeId => typeof(DefaultValueAttribute);
         }
 
         #region Special localization - with String.Format

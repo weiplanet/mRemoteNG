@@ -49,7 +49,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Credential\Records\" />
-    <Folder Include="Resources\Help\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App\CompatibilityChecker.cs" />
@@ -244,7 +243,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Tools\ADhelper.cs" />
-    <Compile Include="Tools\Attributes\UsedInAllProtocolsExceptAttribute.cs" />
+    <Compile Include="Tools\Attributes\AttributeUsedInAllProtocolsExcept.cs" />
     <Compile Include="Tools\Clipboard\WindowsClipboard.cs" />
     <Compile Include="Tools\CustomCollections\IFullyNotifiableList.cs" />
     <Compile Include="Tools\CustomCollections\FullyObservableCollection.cs" />
@@ -311,7 +310,7 @@
     <Compile Include="Tools\Optional.cs" />
     <Compile Include="Tools\MouseClickSimulator.cs" />
     <Compile Include="Tools\NotificationAreaIcon.cs" />
-    <Compile Include="Tools\Attributes\UsedInProtocolAttribute.cs" />
+    <Compile Include="Tools\Attributes\AttributeUsedInProtocol.cs" />
     <Compile Include="Tools\WindowsRegistry\IRegistry.cs" />
     <Compile Include="Tools\WindowsRegistry\RegistryHive.cs" />
     <Compile Include="Tools\WindowsRegistry\WindowsRegistry.cs" />
@@ -335,49 +334,49 @@
     <Compile Include="Tree\Root\RootNodeTypeEnum.cs" />
     <Compile Include="Tree\ClickHandlers\SwitchToConnectionClickHandler.cs" />
     <Compile Include="Tree\ClickHandlers\TreeNodeCompositeClickHandler.cs" />
-    <Compile Include="UI\Controls\AdTree.cs">
+    <Compile Include="UI\Controls\MrngAdTree.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\Controls\AdTree.Designer.cs">
-      <DependentUpon>AdTree.cs</DependentUpon>
+    <Compile Include="UI\Controls\MrngAdTree.Designer.cs">
+      <DependentUpon>MrngAdTree.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGButton.cs">
+    <Compile Include="UI\Controls\MrngButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGCheckBox.cs">
+    <Compile Include="UI\Controls\MrngCheckBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGComboBox.cs">
+    <Compile Include="UI\Controls\MrngComboBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGGroupBox.cs">
+    <Compile Include="UI\Controls\MrngGroupBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGLabel.cs">
+    <Compile Include="UI\Controls\MrngLabel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGListView.cs">
+    <Compile Include="UI\Controls\MrngListView.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGNumericUpDown.cs">
+    <Compile Include="UI\Controls\MrngNumericUpDown.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGPictureBox.cs">
+    <Compile Include="UI\Controls\MrngPictureBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGPictureBox.Designer.cs">
-      <DependentUpon>NGPictureBox.cs</DependentUpon>
+    <Compile Include="UI\Controls\MrngPictureBox.Designer.cs">
+      <DependentUpon>MrngPictureBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGProgressBar.cs">
+    <Compile Include="UI\Controls\MrngProgressBar.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGRadioButton.cs">
+    <Compile Include="UI\Controls\MrngRadioButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGSearchBox.cs">
+    <Compile Include="UI\Controls\MrngSearchBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\Base\NGTextBox.cs">
+    <Compile Include="UI\Controls\MrngTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="UI\Controls\ConnectionContextMenu.cs">
@@ -436,8 +435,8 @@
     <Compile Include="UI\Controls\HeadlessTabControl.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="UI\Controls\ISelectionTarget.cs" />
-    <Compile Include="UI\Controls\IPTextBox.cs">
+    <Compile Include="UI\ISelectionTarget.cs" />
+    <Compile Include="UI\Controls\MrngIpTextBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UI\Controls\ConnectionTree\IConnectionTreeDelegate.cs" />
@@ -454,7 +453,7 @@
     <Compile Include="UI\Controls\NewPasswordWithVerification.Designer.cs">
       <DependentUpon>NewPasswordWithVerification.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Controls\NotificationMessageListViewItem.cs" />
+    <Compile Include="UI\NotificationMessageListViewItem.cs" />
     <Compile Include="UI\Controls\PageSequence\PageSequence.cs" />
     <Compile Include="UI\Controls\PageSequence\SequencedControl.cs">
       <SubType>UserControl</SubType>
@@ -472,9 +471,9 @@
     <Compile Include="UI\Controls\SecureTextBox.Designer.cs">
       <DependentUpon>SecureTextBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Controls\StatusImageList.cs" />
-    <Compile Include="UI\Controls\TextBoxExtensions.cs" />
-    <Compile Include="UI\Controls\ToolStripSplitButton.cs">
+    <Compile Include="UI\StatusImageList.cs" />
+    <Compile Include="UI\TextBoxExtensions.cs" />
+    <Compile Include="UI\Controls\MrngToolStripSplitButton.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="UI\DialogFactory.cs" />
@@ -493,11 +492,11 @@
     <Compile Include="UI\Forms\FrmSplashScreen.Designer.cs">
       <DependentUpon>FrmSplashScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Forms\FullscreenHandler.cs" />
-    <Compile Include="UI\Forms\Input\FrmInputBox.cs">
+    <Compile Include="UI\FullscreenHandler.cs" />
+    <Compile Include="UI\Forms\FrmInputBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Forms\Input\FrmInputBox.Designer.cs">
+    <Compile Include="UI\Forms\FrmInputBox.Designer.cs">
       <DependentUpon>FrmInputBox.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Forms\OptionsPages\AdvancedPage.Designer.cs">
@@ -591,7 +590,6 @@
     <Compile Include="Connection\Protocol\Http\Connection.Protocol.HTTP.cs" />
     <Compile Include="Connection\Protocol\Http\Connection.Protocol.HTTPBase.cs" />
     <Compile Include="Connection\Protocol\Http\Connection.Protocol.HTTPS.cs" />
-    <Compile Include="Connection\Protocol\ICA\IcaProtocol.cs" />
     <Compile Include="Connection\Protocol\IntegratedProgram.cs" />
     <Compile Include="Connection\Protocol\ProtocolList.cs" />
     <Compile Include="Connection\Protocol\ProtocolType.cs" />
@@ -619,10 +617,10 @@
     <Compile Include="UI\Forms\FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Forms\PasswordForm.Designer.cs">
-      <DependentUpon>PasswordForm.cs</DependentUpon>
+    <Compile Include="UI\Forms\FrmPassword.Designer.cs">
+      <DependentUpon>FrmPassword.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Forms\PasswordForm.cs">
+    <Compile Include="UI\Forms\FrmPassword.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Messages\Message.cs" />
@@ -650,14 +648,11 @@
     <Compile Include="Tools\PortScanner.cs" />
     <Compile Include="Tools\WindowMenu.cs" />
     <Compile Include="Tools\Tools.WindowPlacement.cs" />
-    <Compile Include="UI\Forms\TextBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="UI\Forms\UnhandledExceptionWindow.cs">
+    <Compile Include="UI\Forms\FrmUnhandledException.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Forms\UnhandledExceptionWindow.Designer.cs">
-      <DependentUpon>UnhandledExceptionWindow.cs</DependentUpon>
+    <Compile Include="UI\Forms\FrmUnhandledException.Designer.cs">
+      <DependentUpon>FrmUnhandledException.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\GraphicsUtilities\GdiPlusGraphicsProvider.cs" />
     <Compile Include="UI\GraphicsUtilities\IGraphicsProvider.cs" />
@@ -735,8 +730,8 @@
     <Compile Include="UI\Window\ErrorAndInfoWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Forms\ExportForm.Designer.cs">
-      <DependentUpon>ExportForm.cs</DependentUpon>
+    <Compile Include="UI\Forms\FrmExport.Designer.cs">
+      <DependentUpon>FrmExport.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Window\ErrorAndInfoWindow.Designer.cs">
       <DependentUpon>ErrorAndInfoWindow.cs</DependentUpon>
@@ -760,7 +755,7 @@
     <Compile Include="UI\Window\PortScanWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Forms\ExportForm.cs">
+    <Compile Include="UI\Forms\FrmExport.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\Window\ScreenshotManagerWindow.cs">
@@ -807,38 +802,38 @@
       <LastGenOutput>ColorMapTheme.Designer.cs</LastGenOutput>
       <CustomToolNamespace>mRemoteNG</CustomToolNamespace>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\AdTree.resx">
-      <DependentUpon>AdTree.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngAdTree.resx">
+      <DependentUpon>MrngAdTree.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\Base\NGButton.resx">
-      <DependentUpon>NGButton.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngButton.resx">
+      <DependentUpon>MrngButton.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\Base\NGCheckBox.resx">
-      <DependentUpon>NGCheckBox.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngCheckBox.resx">
+      <DependentUpon>MrngCheckBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\Base\NGComboBox.resx">
-      <DependentUpon>NGComboBox.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngComboBox.resx">
+      <DependentUpon>MrngComboBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\Base\NGGroupBox.resx">
-      <DependentUpon>NGGroupBox.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngGroupBox.resx">
+      <DependentUpon>MrngGroupBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\Base\NGLabel.resx">
-      <DependentUpon>NGLabel.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngLabel.resx">
+      <DependentUpon>MrngLabel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\Base\NGListView.resx">
-      <DependentUpon>NGListView.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngListView.resx">
+      <DependentUpon>MrngListView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\Base\NGNumericUpDown.resx">
-      <DependentUpon>NGNumericUpDown.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngNumericUpDown.resx">
+      <DependentUpon>MrngNumericUpDown.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\Base\NGRadioButton.resx">
-      <DependentUpon>NGRadioButton.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngRadioButton.resx">
+      <DependentUpon>MrngRadioButton.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\Base\NGSearchBox.resx">
-      <DependentUpon>NGSearchBox.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngSearchBox.resx">
+      <DependentUpon>MrngSearchBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\Base\NGTextBox.resx">
-      <DependentUpon>NGTextBox.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngTextBox.resx">
+      <DependentUpon>MrngTextBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Controls\ConnectionTree\ConnectionTree.resx">
       <DependentUpon>ConnectionTree.cs</DependentUpon>
@@ -861,8 +856,8 @@
     <EmbeddedResource Include="UI\Controls\HeadlessTabControl.resx">
       <DependentUpon>HeadlessTabControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Controls\IPTextBox.resx">
-      <DependentUpon>IPTextBox.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Controls\MrngIpTextBox.resx">
+      <DependentUpon>MrngIpTextBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Controls\NewPasswordWithVerification.resx">
       <DependentUpon>NewPasswordWithVerification.cs</DependentUpon>
@@ -887,7 +882,7 @@
     <EmbeddedResource Include="UI\Forms\FrmSplashScreen.resx">
       <DependentUpon>FrmSplashScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Forms\Input\FrmInputBox.resx">
+    <EmbeddedResource Include="UI\Forms\FrmInputBox.resx">
       <DependentUpon>FrmInputBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Forms\OptionsPages\AdvancedPage.resx">
@@ -927,8 +922,8 @@
     <EmbeddedResource Include="UI\Forms\OptionsPages\UpdatesPage.resx">
       <DependentUpon>UpdatesPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Forms\PasswordForm.resx">
-      <DependentUpon>PasswordForm.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Forms\FrmPassword.resx">
+      <DependentUpon>FrmPassword.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Language\Language.de.resx">
@@ -996,11 +991,8 @@
       <DependentUpon>ReconnectGroup.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Forms\TextBox.resx">
-      <DependentUpon>TextBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI\Forms\UnhandledExceptionWindow.resx">
-      <DependentUpon>UnhandledExceptionWindow.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Forms\FrmUnhandledException.resx">
+      <DependentUpon>FrmUnhandledException.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Tabs\ConnectionTab.resx">
       <DependentUpon>ConnectionTab.cs</DependentUpon>
@@ -1050,8 +1042,8 @@
       <DependentUpon>PortScanWindow.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Forms\ExportForm.resx">
-      <DependentUpon>ExportForm.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Forms\FrmExport.resx">
+      <DependentUpon>FrmExport.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Window\ScreenshotManagerWindow.resx">
@@ -1086,6 +1078,12 @@
     <None Include="..\CREDITS.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="..\README.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\COPYING.TXT">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Documentation\contact_mail.rst" />
     <None Include="Documentation\howtos\bulk_connections.rst" />
     <None Include="Documentation\folders_and_inheritance.rst" />
@@ -1097,7 +1095,6 @@
     <None Include="Documentation\user_interface\ssh_file_transfer.rst" />
     <None Include="Documentation\sql_configuration.rst" />
     <None Include="Documentation\known_issues.rst" />
-    <None Include="Documentation\installation\supported_operating_systems.rst" />
     <None Include="Documentation\keyboard_shortcuts.rst" />
     <None Include="Documentation\command_line_switches.rst" />
     <None Include="Documentation\user_interface\notifications.rst" />
@@ -1137,9 +1134,9 @@
     </None>
     <None Include="Documentation\images\connections_status.png" />
     <None Include="Documentation\images\putty.png" />
-    <Content Include="Documentation\images\ssh_tunnel.png" />
-    <Content Include="Documentation\mssql_db_setup.sql" />
-    <Content Include="Documentation\mysql_db_setup.sql" />
+    <None Include="Documentation\images\ssh_tunnel.png" />
+    <None Include="Documentation\mssql_db_setup.sql" />
+    <None Include="Documentation\mysql_db_setup.sql" />
     <None Include="Documentation\images\config_top_bar.png" />
     <None Include="Documentation\images\connections_main.png" />
     <None Include="Documentation\images\connections_top_bar.png" />
@@ -1348,15 +1345,6 @@
     <None Include="Resources\Images\FamFamFam\News.png" />
     <None Include="Documentation\conf.py" />
     <None Include="Documentation\index.rst" />
-    <None Include="Documentation\about.rst" />
-    <None Include="Documentation\about\features.rst" />
-    <None Include="Documentation\about\license.rst" />
-    <None Include="Documentation\about\release_channels.rst" />
-    <None Include="Documentation\about\versions.rst" />
-    <None Include="Documentation\installation\install.rst" />
-    <None Include="Documentation\installation.rst" />
-    <None Include="Documentation\installation\minimum_requirements.rst" />
-    <None Include="Documentation\installation\uninstall.rst" />
     <None Include="Documentation\howtos\sshtunnel.rst" />
     <None Include="Documentation\user_interface.rst" />
     <None Include="Documentation\user_interface\main_window.rst" />
@@ -1578,10 +1566,10 @@
       <Version>1.8.6.1</Version>
     </PackageReference>
     <PackageReference Include="CefSharp.Common">
-      <Version>81.3.100</Version>
+      <Version>84.4.10</Version>
     </PackageReference>
     <PackageReference Include="CefSharp.WinForms">
-      <Version>81.3.100</Version>
+      <Version>84.4.10</Version>
     </PackageReference>
     <PackageReference Include="ConsoleControl">
       <Version>1.3.0</Version>
@@ -1602,16 +1590,16 @@
       <Version>3.0.6</Version>
     </PackageReference>
     <PackageReference Include="Google.Protobuf">
-      <Version>3.12.1</Version>
+      <Version>3.13.0</Version>
     </PackageReference>
     <PackageReference Include="log4net">
-      <Version>2.0.8</Version>
+      <Version>2.0.11</Version>
     </PackageReference>
     <PackageReference Include="MySql.Data">
-      <Version>8.0.20</Version>
+      <Version>8.0.21</Version>
     </PackageReference>
     <PackageReference Include="NUnit3TestAdapter">
-      <Version>3.16.1</Version>
+      <Version>3.17.0</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -1649,26 +1637,10 @@
       <WrapperTool>aximp</WrapperTool>
       <Isolated>False</Isolated>
     </COMReference>
-    <COMReference Include="AxWFICALib">
-      <Guid>{238F6F80-B8B4-11CF-8771-00A024541EE3}</Guid>
-      <VersionMajor>2</VersionMajor>
-      <VersionMinor>7</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>aximp</WrapperTool>
-      <Isolated>False</Isolated>
-    </COMReference>
     <COMReference Include="MSTSCLib">
       <Guid>{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-    </COMReference>
-    <COMReference Include="WFICALib">
-      <Guid>{238F6F80-B8B4-11CF-8771-00A024541EE3}</Guid>
-      <VersionMajor>2</VersionMajor>
-      <VersionMinor>7</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
@@ -1739,6 +1711,7 @@ powershell.exe -ExecutionPolicy Bypass -File "$(SolutionDir)Tools\postbuild_mrem
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>false</Prefer32Bit>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>

@@ -7,6 +7,8 @@ using System.Windows.Forms;
 using AxMSTSCLib;
 using mRemoteNG.App;
 using mRemoteNG.Messages;
+using mRemoteNG.Properties;
+using mRemoteNG.Resources.Language;
 using mRemoteNG.Security.SymmetricEncryption;
 using mRemoteNG.Tools;
 using mRemoteNG.UI;
@@ -41,19 +43,13 @@ namespace mRemoteNG.Connection.Protocol.RDP
         public virtual bool SmartSize
         {
             get => _rdpClient.AdvancedSettings2.SmartSizing;
-            protected set
-            {
-                _rdpClient.AdvancedSettings2.SmartSizing = value;
-            }
+            protected set => _rdpClient.AdvancedSettings2.SmartSizing = value;
         }
 
         public virtual bool Fullscreen
         {
             get => _rdpClient.FullScreen;
-            protected set
-            {
-                _rdpClient.FullScreen = value;
-            }
+            protected set => _rdpClient.FullScreen = value;
         }
 
         private bool RedirectKeys

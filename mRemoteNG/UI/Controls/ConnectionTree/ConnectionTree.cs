@@ -9,14 +9,17 @@ using mRemoteNG.App;
 using mRemoteNG.Config.Putty;
 using mRemoteNG.Connection;
 using mRemoteNG.Container;
+using mRemoteNG.Properties;
+using mRemoteNG.Resources.Language;
 using mRemoteNG.Themes;
 using mRemoteNG.Tools.Clipboard;
 using mRemoteNG.Tree;
+using mRemoteNG.Tree.ClickHandlers;
 using mRemoteNG.Tree.Root;
 
 // ReSharper disable ArrangeAccessorOwnerBody
 
-namespace mRemoteNG.UI.Controls
+namespace mRemoteNG.UI.Controls.ConnectionTree
 {
     public partial class ConnectionTree : TreeListView, IConnectionTree
     {
@@ -95,11 +98,8 @@ namespace mRemoteNG.UI.Controls
         {
             if (disposing)
             {
-                if(components != null)
-                    components.Dispose();
-
-                if(_statusImageList != null)
-                _statusImageList.Dispose();
+                components?.Dispose();
+                _statusImageList?.Dispose();
 
                 _themeManager.ThemeChanged -= ThemeManagerOnThemeChanged;
             }
